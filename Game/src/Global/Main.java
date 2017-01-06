@@ -109,6 +109,7 @@ public class Main extends Canvas implements Runnable
 
 
         //If the version is not 1.8.0_60 or greater then the user is given an error that says their version needs to be updated
+        /*
         if (System.getProperty("java.version").toString().compareTo("1.8.0_60") < 0)
         {
             System.err.println("ERR - UPDATE JAVA TO LATEST VERSION \nJava needs to be at least version 1.8.0_60 \nPress enter to exit");
@@ -122,6 +123,7 @@ public class Main extends Canvas implements Runnable
         {
             System.out.print("This version is... acceptable");
         }
+        */
 
         //Start the program
         Main main = new Main();
